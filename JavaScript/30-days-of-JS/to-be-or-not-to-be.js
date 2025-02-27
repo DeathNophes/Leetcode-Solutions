@@ -13,5 +13,7 @@ function expect (val) {
     return {toBe, notToBe}
 }
 
-// expect(5).toBe(5)
-// expect(5).toBe(null)
+/**
+* expect(5).toBe(5) // true
+* expect(5).toBe(null) // {"error": "Not Equal"}
+*/
