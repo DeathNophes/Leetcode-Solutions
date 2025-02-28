@@ -8,7 +8,9 @@ function createCounter (n) {
     }
 }
 
-// const counter = createCounter(n);
-// console.log(counter())
-// console.log(counter())
-// console.log(counter())
+/**
+* const counter = createCounter(n);
+* console.log(counter()) // 10
+* console.log(counter()) // 11
+* console.log(counter()) // 12
+*/

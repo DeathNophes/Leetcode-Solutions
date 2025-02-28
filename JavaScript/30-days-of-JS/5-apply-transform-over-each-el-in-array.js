@@ -13,4 +13,6 @@ function map (arr, fn) {
     return newArr;
 }
 
-// map(arr, fn);
+/**
+* map(arr, fn); // [2, 3, 4]
+*/

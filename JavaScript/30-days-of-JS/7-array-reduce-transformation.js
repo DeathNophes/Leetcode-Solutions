@@ -14,4 +14,6 @@ function reduce (nums, fn, init) {
     return value
 }
 
-// reduce(nums, fn, init)
+/**
+* reduce(nums, fn, init) // 10
+*/

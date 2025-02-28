@@ -14,6 +14,6 @@ function compose (functions) {
 }
 
 /**
-const fn = compose(functions);
-fn(4); // 65
+* const fn = compose(functions);
+* fn(4); // 65
 */
