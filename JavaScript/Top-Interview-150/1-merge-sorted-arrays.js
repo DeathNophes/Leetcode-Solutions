@@ -5,6 +5,7 @@
 
 function merge (nums1, m, nums2, n) {
     let newArr = [];
+    
     for (let i = 0; i < m; i++) {
         newArr.push(nums1[i]);
     }
