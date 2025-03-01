@@ -1,5 +1,5 @@
 // let nums = [1, 2, 3, 4];
-// let fn = function sum (accum, curr) {return accum + curr};
+// let fn = function sum (acc, curr) {return acc + curr};
 // const init = 0
 
 function reduce (nums, fn, init) {

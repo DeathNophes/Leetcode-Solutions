@@ -8,12 +8,12 @@ function filter (arr, fn) {
         if (fn(arr[i], i)) newArr.push(arr[i])
     }
 
-    // JS treat nonzero numbers as truthy, and 0 (zero) as falsy
+    // JS treats nonzero numbers as truthy, and 0 (zero) as falsy
 
     console.log(newArr);
-    return newArr;
+    return newArr
 }
 
 /**
-* filter(arr, fn); // [-2. 0, 1, 2]
+* filter(arr, fn); // [-2, 0, 1, 2]
 */

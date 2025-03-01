@@ -1,5 +1,5 @@
 // let arr = [1, 2, 3];
-// let fn = function plusone (n) {return n + 1};
+// let fn = function plusOne (n) {return n + 1};
 
 function map (arr, fn) {
     let newArr = [];
@@ -8,7 +8,7 @@ function map (arr, fn) {
         newArr.push(fn(arr[i], i))
     }
 
-    // If there are more arguments passed to a function is JS than required, they are ignored
+    // If there are more arguments than required,  passed to a function in JS, they are ignored
 
     return newArr;
 }

@@ -1,4 +1,4 @@
-// let fn = (a,b,c) => (a + b + c)
+// let fn = (a,b,c) => (a + b + c);
 
 function once (fn) {
     let flag = true;
