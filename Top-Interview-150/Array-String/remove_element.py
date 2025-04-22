@@ -1,12 +1,12 @@
 class Solution:
-    def removeElement (self, nums, val):
-        valNums = 0
+    def removeElement (self, nums: list[int], val):
+        value_instances = 0
 
         for number in nums:
             if number == val:
-                valNums += 1
+                value_instances += 1
         
-        for _ in range(valNums):
+        for _ in range(value_instances):
             nums.remove(val)
 
         k = len(nums)
